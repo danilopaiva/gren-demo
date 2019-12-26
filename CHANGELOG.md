@@ -1,11 +1,14 @@
-# Changelog
+## :star: Enhancements
 
-## v0.0.1-SNAPSHOT (26/12/2019)
+- Add maven scm plugin [#3](https://github.com/danilopaiva/gren-demo/pull/3)
+- Add gren configuration [#2](https://github.com/danilopaiva/gren-demo/pull/2)
 
-#### Enhancements:
+## :beetle: Bugs
 
-- [#2](https://github.com/danilopaiva/gren-demo/pull/2) Add gren configuration
+- Rename artifactId and update groupId [#1](https://github.com/danilopaiva/gren-demo/pull/1)
 
-#### Bug Fixes:
+## :heart: Contributors
 
-- [#1](https://github.com/danilopaiva/gren-demo/pull/1) Rename artifactId and update groupId
+We'd like to thank all the contributors who worked on this release!
+
+- [@danilopaiva](https://github.com/danilopaiva)
