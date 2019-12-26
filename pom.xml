@@ -91,5 +91,4 @@
 		<connection>scm:git:git@github.com:danilopaiva/gren-demo.git</connection>
 		<developerConnection>scm:git:git@github.com:danilopaiva/gren-demo.git</developerConnection>
 	</scm>
-
 </project>
