@@ -1,10 +1,13 @@
 {
-    "dataSource": "prs",
-    "prefix": "",
+    "dataSource": "prs-with-issues",
+    "prefix": "v",
     "onlyMilestones": false,
     "groupBy": {
         "Enhancements:": ["enhancement", "internal"],
         "Bug Fixes:": ["bug"]
+    },
+    "template": {
+        "issue": "- [{{text}}]({{url}}) {{name}}"
     },
     "changelogFilename": "CHANGELOG.md"
 }
