@@ -17,6 +17,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<kotlin.version>1.3.61</kotlin.version>
+		<maven-scm-plugin.version>1.11.2</maven-scm-plugin.version>
 	</properties>
 
 	<dependencies>
@@ -73,7 +74,22 @@
 					</dependency>
 				</dependencies>
 			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>${maven-scm-plugin.version}</version>
+				<configuration>
+					<tag>${project.version}</tag>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+		<url>https://github.com/danilopaiva/gren-demo/</url>
+		<connection>scm:git:git@github.com:danilopaiva/gren-demo.git</connection>
+		<developerConnection>scm:git:git@github.com:danilopaiva/gren-demo.git</developerConnection>
+	</scm>
 
 </project>
