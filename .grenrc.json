@@ -1,13 +1,27 @@
 {
-    "dataSource": "prs-with-issues",
-    "prefix": "v",
-    "onlyMilestones": false,
-    "groupBy": {
-        "Enhancements:": ["enhancement", "internal"],
-        "Bug Fixes:": ["bug"]
-    },
-    "template": {
-        "issue": "- [{{text}}]({{url}}) {{name}}"
-    },
-    "changelogFilename": "CHANGELOG.md"
+  "dataSource": "prs-with-issues",
+  "prefix": "v",
+  "onlyMilestones": false,
+  "groupBy": {
+    ":star: New Features:": [
+      "new",
+      "enhancement",
+      "feature"
+    ],
+    ":beetle: Bugs:": [
+      "fix",
+      "bug"
+    ],
+    ":notebook_with_decorative_cover: Documentation": [
+      "documentation"
+    ],
+    ":hammer_and_wrench: Dependency Upgrades:": [
+      "dependency-upgrade"
+    ]
+  },
+  "template": {
+    "issue": "- [{{text}}]({{url}}) {{name}}",
+    "release": "## {{release}} ({{date}})\n{{body}}"
+  },
+  "changelogFilename": "CHANGELOG.md"
 }
